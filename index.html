@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Introduction to HTML5 - Accessibility & SEO Basics</title>
+    <meta name="description" content="Learn the basics of HTML5 structure, accessibility, and SEO by building a semantic, accessible, and search-friendly web page.">
 </head>
 <body>
-    
+    <header>
+        <h1>Introduction to HTML5: Accessibility & SEO Basics</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#about-html5">About HTML5</a></li>
+                <li><a href="#accessibility">Accessibility</a></li>
+                <li><a href="#seo">SEO Basics</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about-html5">
+            <h2>What is HTML5?</h2>
+            <p>
+                HTML5 is the latest version of the HyperText Markup Language, the standard language for creating web pages. It introduces new semantic elements, improves accessibility, and enhances support for multimedia and mobile devices.
+            </p>
+        </section>
+        <section id="accessibility">
+            <h2>Accessibility in Web Design</h2>
+            <p>
+                Accessibility ensures that websites are usable by everyone, including people with disabilities. Using semantic HTML5 elements and proper attributes helps assistive technologies understand and navigate your content.
+            </p>
+            <ul>
+                <li>Use landmarks like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code>.</li>
+                <li>Provide descriptive link text and headings.</li>
+                <li>Use <code>aria</code> attributes when necessary for clarity.</li>
+            </ul>
+        </section>
+        <section id="seo">
+            <h2>SEO Basics</h2>
+            <p>
+                Search Engine Optimization (SEO) improves your site's visibility in search results. Semantic HTML, clear headings, and descriptive metadata help search engines understand your content.
+            </p>
+            <ol>
+                <li>Use headings (<code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>) in logical order.</li>
+                <li>Write meaningful titles and meta descriptions.</li>
+                <li>Structure content with semantic tags.</li>
+            </ol>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <address>
+                For questions, email us at 
+                <a href="mailto:info@example.com">info@example.com</a>.
+            </address>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Introduction to HTML5. All rights reserved.</p>
+    </footer>
 </body>
 </html>
